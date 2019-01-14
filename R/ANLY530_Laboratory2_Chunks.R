@@ -105,7 +105,7 @@ naive_model
 ## @knitr part2Step1
 
 # Randomize the data
-credit_rand <-credit[order(runif(1000)), ]
+#credit_rand <-credit[order(runif(1000)), ]
 
 # Scale the data
 creditDataScaled <- scale(credit_rand[,2:ncol(credit_rand)], center=TRUE, scale = TRUE)
