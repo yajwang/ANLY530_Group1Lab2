@@ -101,3 +101,7 @@ Let us start by [Loading the Data Sheets]
 
 ```{r part3Step3, message=FALSE, warning=FALSE}
 ```
+
+We randomize the whole dataset before splitting it into train and test data.  It makes no sense to randomize it after splitting the data.
+In part 2, we choose to remove one highly correlated variable, and the accuracy is slightly improved compared to the first model.
+In the last part, when we implement the method on News Popularity data, it gives a perfect prediction of 100% accuracy, which is much better than the result we got in lab 1.
